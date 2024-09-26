@@ -122,8 +122,6 @@ python3 coco.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt
 
 Run the evaluation code. Using `--dataset` to specify the evaluation dataset.
 ```
-# Example usage:
-# 3DPW
 python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --dataset=3dpw --log_freq=20
 ```
 
