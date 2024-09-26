@@ -129,7 +129,8 @@ python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt -
 
 ## Training
 
+We can monitor the training process by setting up a TensorBoard in the directory `./logs`.
+
 ```
 CUDA_VISIBLE_DEVICES=0 python3 trainer.py --regressor emo_body_lang --single_dataset --misc TRAIN.BATCH_SIZE 64
 ```
-We can monitor the training process by setting up a TensorBoard in the directory `./logs`.
