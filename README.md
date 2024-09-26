@@ -103,7 +103,7 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 ```
 
 <p align="left">
-    <a href="https://github.com/swerizwan/PMRR/blob/main/resources/interview_result.mp4" target="_blank"></a>
+    <a href="https://www.youtube.com/watch?v=HzetLjjGWDI" target="_blank"></a>
 </p>
 
 
