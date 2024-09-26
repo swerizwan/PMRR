@@ -84,6 +84,7 @@ bash fetch_data.sh
 └── final_fits
     └── .npy files
 
+
 ## Preview of Demo Results:
 
 ### For Image Input:
