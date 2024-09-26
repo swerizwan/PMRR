@@ -83,7 +83,7 @@ bash fetch_data.sh
 │   └── UV_symmetry_transforms.mat
 └── final_fits
     └── .npy files
-
+```
 
 ## Preview of Demo Results:
 
