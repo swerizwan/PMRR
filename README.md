@@ -10,7 +10,7 @@ This paper introduces a Pyramid-based Mesh Refinement Reconstruction (PMRR) meth
 
 The comprehensive pipeline of the RealMock framework.
 
-<img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/architecture.jpg" alt="MERLB Overview">
+<img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/architecture.jpg" alt="PMRR Overview">
 
 # PMRR Environment Setup
 
@@ -26,7 +26,7 @@ conda create --no-default-packages -n pmrr python=3.8
 conda activate pmrr
 ```
 
-### packages
+### Packages
 
 - [PyTorch](https://www.pytorch.org) tested on version 1.9.0
 ```
@@ -43,7 +43,7 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 pip install -r requirements.txt
 ```
 
-### necessary files
+### Necessary Files
 
 > mesh_downsampling.npz & DensePose UV data
 
@@ -84,36 +84,32 @@ After collecting the above necessary files, the directory structure of `./data` 
     └── UV_symmetry_transforms.mat
 ```
 
-## Preview of demo results:
+## Preview of Demo Results:
 
-### For image input:
+### For Image Input:
 
 ```
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
 ```
 
 <p align="left">
-    <img src="https://user-images.githubusercontent.com/12066626/194307352-7fe821fd-456a-4f06-b6c4-547531fdfd60.gif">
-    <br>
-    <sup>Frame by frame reconstruction. Video from <a href="https://twitter.com/jun40vn/status/1549318132967374850" target="_blank"><i>here</i></a>.</sup>
+    <img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/image.png" alt="PMRR Overview">
 </p>
 
-### For video input:
+### For Video Input:
 
 ```
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
 ```
 
 <p align="left">
-    <img src="https://hongwenzhang.github.io/pymaf/files/flashmob.gif">
-    <br>
-    <sup>Frame by frame reconstruction. Video clipped from <a href="https://www.youtube.com/watch?v=2DiQUX11YaY" target="_blank"><i>here</i></a>.</sup>
+    <a href="https://github.com/swerizwan/PMRR/blob/main/resources/interview_result.mp4" target="_blank"></a>
 </p>
 
 
 ## Evaluation
 
-### COCO Keypoint Localization
+### COCO
 
 1. Download the preprocessed data [coco_2014_val.npz](https://drive.google.com/drive/folders/1R4_Vi4TpCQ26-6_b2PhjTBg-nBxZKjz6?usp=sharing). Put it into the `./data/dataset_extras` directory. 
 
@@ -136,4 +132,4 @@ python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt -
 ```
 CUDA_VISIBLE_DEVICES=0 python3 trainer.py --regressor emo_body_lang --single_dataset --misc TRAIN.BATCH_SIZE 64
 ```
-We can monitor the training process by setting up a TensorBoard at the directory `./logs`.
+We can monitor the training process by setting up a TensorBoard in the directory `./logs`.
