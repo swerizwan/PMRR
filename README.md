@@ -102,7 +102,7 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
 ```
 
-<p align="left">
+<p align="center">
     <a href="https://www.youtube.com/watch?v=HzetLjjGWDI" target="_blank"></a>
 </p>
 
