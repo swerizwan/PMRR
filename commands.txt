@@ -1,0 +1,12 @@
+python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --dataset=3dpw --log_freq=20
+
+python3 coco.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt
+
+# image
+python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --img_file examples/Picture5.png
+
+# video 
+python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file examples/dancer.mp4
+
+# training 
+CUDA_VISIBLE_DEVICES=0 python3 trainer.py --regressor emo_body_lang --single_dataset --misc TRAIN.BATCH_SIZE 64

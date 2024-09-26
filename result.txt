@@ -1,0 +1,658 @@
+
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 0: 785it [23:11,  1.77s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 0: 785it [23:09,  1.48s/it]
+Eval: 1110it [31:42,  1.71s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 0, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 0, step -3  MPJPE: 247.4829, PA-MPJPE: 161.4244, PVE: 295.1940,
+INFO:core.trainer:Epoch 0, step -2  MPJPE: 257.5119, PA-MPJPE: 164.5728, PVE: 302.5919,
+INFO:core.trainer:Epoch 0, step -1  MPJPE: 259.5082, PA-MPJPE: 164.4464, PVE: 308.2873,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-16 22:10:32.318795 Epoch: 1 Iteration: 0
+2022-12-16 22:10:32.318795 Epoch: 1 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 1: 785it [26:42,  2.04s/it]                                 | 1/60 [1:02:04<61:02:17, 3724.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 1: 785it [26:42,  1.43s/it]
+Eval: 1110it [32:44,  1.77s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 1, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 1, step -3  MPJPE: 259.9849, PA-MPJPE: 162.2230, PVE: 313.4410,
+INFO:core.trainer:Epoch 1, step -2  MPJPE: 267.6424, PA-MPJPE: 162.1126, PVE: 320.0785,
+INFO:core.trainer:Epoch 1, step -1  MPJPE: 270.6499, PA-MPJPE: 162.2133, PVE: 330.6914,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-16 23:19:01.018758 Epoch: 2 Iteration: 0
+2022-12-16 23:19:01.018758 Epoch: 2 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 2: 785it [27:37,  2.11s/it]                                 | 2/60 [2:10:42<63:44:00, 3955.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 2: 785it [27:37,  1.52s/it]
+Eval: 1110it [34:06,  1.84s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 2, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 2, step -3  MPJPE: 261.2213, PA-MPJPE: 155.7566, PVE: 318.8073,
+INFO:core.trainer:Epoch 2, step -2  MPJPE: 262.0433, PA-MPJPE: 152.6752, PVE: 322.6575,
+INFO:core.trainer:Epoch 2, step -1  MPJPE: 267.6211, PA-MPJPE: 152.7447, PVE: 333.2505,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 00:29:09.175847 Epoch: 3 Iteration: 0
+2022-12-17 00:29:09.175847 Epoch: 3 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 3: 785it [27:52,  2.13s/it]                                 | 3/60 [3:20:46<64:25:55, 4069.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 3: 785it [27:51,  1.60s/it]
+Eval: 1110it [34:36,  1.87s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 3, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 3, step -3  MPJPE: 276.0582, PA-MPJPE: 160.9277, PVE: 338.6991,
+INFO:core.trainer:Epoch 3, step -2  MPJPE: 280.1886, PA-MPJPE: 158.4041, PVE: 342.2905,
+INFO:core.trainer:Epoch 3, step -1  MPJPE: 287.3607, PA-MPJPE: 159.9539, PVE: 359.2777,
+Learning rate 5e-05
+2022-12-17 01:42:09.236781 Epoch: 4 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 4: 785it [27:07,  2.07s/it]                                 | 4/60 [4:33:32<65:07:26, 4186.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 4: 785it [27:07,  1.52s/it]
+Eval: 1110it [34:36,  1.87s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 4, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 4, step -3  MPJPE: 263.1334, PA-MPJPE: 147.5517, PVE: 326.7231,
+INFO:core.trainer:Epoch 4, step -2  MPJPE: 274.0152, PA-MPJPE: 147.4539, PVE: 339.8901,
+INFO:core.trainer:Epoch 4, step -1  MPJPE: 278.9511, PA-MPJPE: 147.4725, PVE: 353.9653,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 02:53:54.546198 Epoch: 5 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_05.
+2022-12-17 02:53:54.546198 Epoch: 5 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 5: 785it [27:53,  2.13s/it]                                 | 5/60 [5:45:34<64:42:07, 4235.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 5: 785it [27:52,  1.59s/it]
+Eval: 1110it [35:05,  1.90s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 5, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 5, step -3  MPJPE: 265.2203, PA-MPJPE: 150.4079, PVE: 333.6220,
+INFO:core.trainer:Epoch 5, step -2  MPJPE: 271.8153, PA-MPJPE: 148.8352, PVE: 348.2456,
+INFO:core.trainer:Epoch 5, step -1  MPJPE: 274.1625, PA-MPJPE: 148.9427, PVE: 363.0950,
+Learning rate 5e-05
+2022-12-17 04:07:12.805473 Epoch: 6 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 6: 785it [27:48,  2.13s/it]                                 | 6/60 [6:58:36<64:16:40, 4285.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 6: 785it [27:48,  1.65s/it]
+Eval: 1110it [35:19,  1.91s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 6, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 6, step -3  MPJPE: 267.9573, PA-MPJPE: 146.8588, PVE: 342.0626,
+INFO:core.trainer:Epoch 6, step -2  MPJPE: 267.4763, PA-MPJPE: 144.5867, PVE: 349.8658,
+INFO:core.trainer:Epoch 6, step -1  MPJPE: 272.4616, PA-MPJPE: 144.4846, PVE: 364.7449,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 05:20:22.573066 Epoch: 7 Iteration: 0
+2022-12-17 05:20:22.573066 Epoch: 7 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 7: 785it [27:52,  2.13s/it]                                 | 7/60 [8:11:58<63:39:03, 4323.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 7: 785it [27:52,  1.57s/it]
+Eval: 1110it [35:27,  1.92s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 7, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 7, step -3  MPJPE: 264.7794, PA-MPJPE: 145.0277, PVE: 337.0809,
+INFO:core.trainer:Epoch 7, step -2  MPJPE: 276.4712, PA-MPJPE: 147.4427, PVE: 353.0170,
+INFO:core.trainer:Epoch 7, step -1  MPJPE: 282.9159, PA-MPJPE: 148.8978, PVE: 367.5980,
+Learning rate 5e-05
+2022-12-17 06:35:30.475419 Epoch: 8 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 8: 785it [28:38,  2.19s/it]                                 | 8/60 [9:26:54<63:14:33, 4378.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 8: 785it [28:38,  2.12s/it]
+Eval: 1110it [39:34,  2.14s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 8, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 8, step -3  MPJPE: 275.8210, PA-MPJPE: 145.7064, PVE: 352.9911,
+INFO:core.trainer:Epoch 8, step -2  MPJPE: 281.9668, PA-MPJPE: 146.6227, PVE: 366.0935,
+INFO:core.trainer:Epoch 8, step -1  MPJPE: 286.8372, PA-MPJPE: 147.4317, PVE: 380.1497,
+Learning rate 5e-05
+2022-12-17 07:55:21.755061 Epoch: 9 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 9: 785it [29:45,  2.27s/it]                                | 9/60 [10:46:45<63:51:11, 4507.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 9: 785it [29:44,  1.55s/it]
+Eval: 1110it [36:29,  1.97s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 9, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 9, step -3  MPJPE: 278.4014, PA-MPJPE: 147.3897, PVE: 354.6081,
+INFO:core.trainer:Epoch 9, step -2  MPJPE: 286.3358, PA-MPJPE: 147.1252, PVE: 370.0924,
+INFO:core.trainer:Epoch 9, step -1  MPJPE: 290.7190, PA-MPJPE: 147.2706, PVE: 380.3493,
+Learning rate 5e-05
+2022-12-17 09:13:12.847999 Epoch: 10 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_10.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 10: 785it [30:48,  2.35s/it]                              | 10/60 [12:04:49<63:21:36, 4561.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 10: 785it [30:47,  1.50s/it]
+Eval: 1110it [38:08,  2.06s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 10, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 10, step -3  MPJPE: 265.5015, PA-MPJPE: 146.2661, PVE: 338.3350,
+INFO:core.trainer:Epoch 10, step -2  MPJPE: 278.5549, PA-MPJPE: 146.8400, PVE: 359.8570,
+INFO:core.trainer:Epoch 10, step -1  MPJPE: 282.8702, PA-MPJPE: 146.2968, PVE: 370.8494,
+Learning rate 5e-05
+2022-12-17 10:33:04.686478 Epoch: 11 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 11: 785it [29:48,  2.28s/it]                              | 11/60 [13:24:28<62:59:49, 4628.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 11: 785it [29:48,  1.41s/it]
+Eval: 1110it [37:36,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 11, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 11, step -3  MPJPE: 296.8315, PA-MPJPE: 145.2388, PVE: 378.1784,
+INFO:core.trainer:Epoch 11, step -2  MPJPE: 300.4832, PA-MPJPE: 145.4166, PVE: 389.0259,
+INFO:core.trainer:Epoch 11, step -1  MPJPE: 302.1002, PA-MPJPE: 144.7667, PVE: 396.2778,
+Learning rate 5e-05
+2022-12-17 11:52:42.390708 Epoch: 12 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 12: 785it [29:40,  2.27s/it]                              | 12/60 [14:44:06<62:18:57, 4673.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 12: 785it [29:40,  1.60s/it]
+Eval: 1110it [39:26,  2.13s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 12, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 12, step -3  MPJPE: 280.5152, PA-MPJPE: 142.9232, PVE: 360.9691,
+INFO:core.trainer:Epoch 12, step -2  MPJPE: 289.5291, PA-MPJPE: 142.7132, PVE: 376.3754,
+INFO:core.trainer:Epoch 12, step -1  MPJPE: 293.0044, PA-MPJPE: 143.7786, PVE: 384.4157,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 13:18:34.865916 Epoch: 13 Iteration: 0
+2022-12-17 13:18:34.865916 Epoch: 13 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 13: 785it [29:44,  2.27s/it]                              | 13/60 [16:10:15<62:58:36, 4823.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 13: 785it [29:44,  1.64s/it]
+Eval: 1110it [38:33,  2.08s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 13, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 13, step -3  MPJPE: 283.4175, PA-MPJPE: 145.9035, PVE: 368.5320,
+INFO:core.trainer:Epoch 13, step -2  MPJPE: 292.3365, PA-MPJPE: 145.0963, PVE: 388.4974,
+INFO:core.trainer:Epoch 13, step -1  MPJPE: 298.6312, PA-MPJPE: 146.2416, PVE: 404.5660,
+Learning rate 5e-05
+2022-12-17 14:44:00.446164 Epoch: 14 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 14: 785it [29:07,  2.23s/it]                              | 14/60 [17:35:24<62:44:17, 4909.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 14: 785it [29:06,  1.54s/it]
+Eval: 1110it [37:31,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 14, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 14, step -3  MPJPE: 281.6565, PA-MPJPE: 146.5301, PVE: 372.3996,
+INFO:core.trainer:Epoch 14, step -2  MPJPE: 289.4454, PA-MPJPE: 144.9615, PVE: 391.6652,
+INFO:core.trainer:Epoch 14, step -1  MPJPE: 297.1863, PA-MPJPE: 144.7314, PVE: 406.2112,
+Learning rate 5e-05
+2022-12-17 16:01:57.187670 Epoch: 15 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_15.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 15: 785it [28:29,  2.18s/it]                              | 15/60 [18:53:26<60:31:05, 4841.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 15: 785it [28:29,  1.60s/it]
+Eval: 1110it [36:43,  1.98s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 15, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 15, step -3  MPJPE: 267.6809, PA-MPJPE: 141.7978, PVE: 348.3405,
+INFO:core.trainer:Epoch 15, step -2  MPJPE: 283.9132, PA-MPJPE: 144.7295, PVE: 375.5089,
+INFO:core.trainer:Epoch 15, step -1  MPJPE: 289.2677, PA-MPJPE: 144.8455, PVE: 387.8124,
+Learning rate 5e-05
+2022-12-17 17:21:11.436404 Epoch: 16 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 16: 785it [29:16,  2.24s/it]                              | 16/60 [20:12:35<58:49:47, 4813.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 16: 785it [29:16,  2.27s/it]
+Eval: 1110it [40:34,  2.19s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 16, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 16, step -3  MPJPE: 287.2471, PA-MPJPE: 144.8587, PVE: 375.2299,
+INFO:core.trainer:Epoch 16, step -2  MPJPE: 293.0588, PA-MPJPE: 143.9456, PVE: 391.3557,
+INFO:core.trainer:Epoch 16, step -1  MPJPE: 297.0712, PA-MPJPE: 143.1456, PVE: 403.6300,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 18:43:25.649162 Epoch: 17 Iteration: 0
+2022-12-17 18:43:25.649162 Epoch: 17 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 17: 785it [31:21,  2.40s/it]                              | 17/60 [21:35:02<57:58:29, 4853.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 17: 785it [31:20,  1.53s/it]
+Eval: 1110it [39:33,  2.14s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 17, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 17, step -3  MPJPE: 283.8002, PA-MPJPE: 138.3985, PVE: 375.4825,
+INFO:core.trainer:Epoch 17, step -2  MPJPE: 290.7990, PA-MPJPE: 139.7059, PVE: 390.9301,
+INFO:core.trainer:Epoch 17, step -1  MPJPE: 297.8189, PA-MPJPE: 140.8511, PVE: 403.2504,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 20:06:06.809397 Epoch: 18 Iteration: 0
+2022-12-17 20:06:06.809397 Epoch: 18 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 18: 785it [29:56,  2.29s/it]                              | 18/60 [22:57:44<57:00:18, 4886.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 18: 785it [29:55,  1.50s/it]
+Eval: 1110it [40:24,  2.18s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 18, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 18, step -3  MPJPE: 261.0673, PA-MPJPE: 135.8807, PVE: 347.4847,
+INFO:core.trainer:Epoch 18, step -2  MPJPE: 272.7981, PA-MPJPE: 137.2271, PVE: 368.3652,
+INFO:core.trainer:Epoch 18, step -1  MPJPE: 276.2824, PA-MPJPE: 137.4738, PVE: 375.1513,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-17 21:31:57.658108 Epoch: 19 Iteration: 0
+2022-12-17 21:31:57.658108 Epoch: 19 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 19: 785it [30:31,  2.33s/it]                              | 19/60 [24:23:35<56:33:13, 4965.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 19: 785it [30:31,  1.48s/it]
+Eval: 1110it [39:38,  2.14s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 19, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 19, step -3  MPJPE: 288.2141, PA-MPJPE: 140.4398, PVE: 377.3766,
+INFO:core.trainer:Epoch 19, step -2  MPJPE: 300.3818, PA-MPJPE: 140.9940, PVE: 404.1720,
+INFO:core.trainer:Epoch 19, step -1  MPJPE: 306.3749, PA-MPJPE: 142.0405, PVE: 415.6179,
+Learning rate 5e-05
+2022-12-17 22:58:07.980413 Epoch: 20 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_20.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 20: 785it [29:02,  2.22s/it]                              | 20/60 [25:49:37<55:49:51, 5024.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 20: 785it [29:02,  1.52s/it]
+Eval: 1110it [38:55,  2.10s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 20, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 20, step -3  MPJPE: 299.3032, PA-MPJPE: 143.2663, PVE: 392.5815,
+INFO:core.trainer:Epoch 20, step -2  MPJPE: 304.9741, PA-MPJPE: 145.1480, PVE: 406.1939,
+INFO:core.trainer:Epoch 20, step -1  MPJPE: 311.9266, PA-MPJPE: 144.4436, PVE: 421.0675,
+Learning rate 5e-05
+2022-12-18 00:20:47.599737 Epoch: 21 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 21: 785it [29:08,  2.23s/it]                              | 21/60 [27:12:11<54:12:10, 5003.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 21: 785it [29:08,  1.53s/it]
+Eval: 1110it [38:06,  2.06s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 21, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 21, step -3  MPJPE: 282.9410, PA-MPJPE: 139.7684, PVE: 367.5033,
+INFO:core.trainer:Epoch 21, step -2  MPJPE: 292.4333, PA-MPJPE: 139.5078, PVE: 387.8421,
+INFO:core.trainer:Epoch 21, step -1  MPJPE: 295.6291, PA-MPJPE: 139.8557, PVE: 394.8735,
+Learning rate 5e-05
+2022-12-18 01:43:29.219139 Epoch: 22 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 22: 785it [29:09,  2.23s/it]                              | 22/60 [28:34:53<52:40:56, 4990.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 22: 785it [29:08,  1.56s/it]
+Eval: 1110it [38:07,  2.06s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 22, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 22, step -3  MPJPE: 301.4643, PA-MPJPE: 145.7823, PVE: 397.7299,
+INFO:core.trainer:Epoch 22, step -2  MPJPE: 302.4046, PA-MPJPE: 143.5282, PVE: 403.4900,
+INFO:core.trainer:Epoch 22, step -1  MPJPE: 305.2207, PA-MPJPE: 144.7129, PVE: 412.3410,
+Learning rate 5e-05
+2022-12-18 03:05:03.636167 Epoch: 23 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 23: 785it [28:47,  2.20s/it]                              | 23/60 [29:56:27<50:59:54, 4962.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 23: 785it [28:46,  1.59s/it]
+Eval: 1110it [37:49,  2.04s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 23, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 23, step -3  MPJPE: 293.4436, PA-MPJPE: 142.7483, PVE: 387.1510,
+INFO:core.trainer:Epoch 23, step -2  MPJPE: 307.2805, PA-MPJPE: 143.5466, PVE: 413.4797,
+INFO:core.trainer:Epoch 23, step -1  MPJPE: 314.2190, PA-MPJPE: 143.8940, PVE: 424.6861,
+Learning rate 5e-05
+2022-12-18 04:25:23.415383 Epoch: 24 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 24: 785it [28:32,  2.18s/it]                              | 24/60 [31:16:47<49:11:33, 4919.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 24: 785it [28:32,  1.51s/it]
+Eval: 1110it [37:49,  2.04s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 24, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 24, step -3  MPJPE: 290.8701, PA-MPJPE: 143.3677, PVE: 389.4803,
+INFO:core.trainer:Epoch 24, step -2  MPJPE: 304.5443, PA-MPJPE: 142.7965, PVE: 420.3889,
+INFO:core.trainer:Epoch 24, step -1  MPJPE: 311.8571, PA-MPJPE: 143.0205, PVE: 433.8089,
+Learning rate 5e-05
+2022-12-18 05:45:03.074254 Epoch: 25 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_25.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 25: 785it [29:15,  2.24s/it]                              | 25/60 [32:36:31<47:25:54, 4878.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 25: 785it [29:14,  1.51s/it]
+Eval: 1110it [38:02,  2.06s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 25, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 25, step -3  MPJPE: 292.7674, PA-MPJPE: 139.8150, PVE: 390.8609,
+INFO:core.trainer:Epoch 25, step -2  MPJPE: 306.4442, PA-MPJPE: 141.4307, PVE: 415.4068,
+INFO:core.trainer:Epoch 25, step -1  MPJPE: 313.5838, PA-MPJPE: 141.8634, PVE: 428.7632,
+Learning rate 5e-05
+2022-12-18 07:06:08.127563 Epoch: 26 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 26: 785it [28:54,  2.21s/it]                              | 26/60 [33:57:32<46:01:31, 4873.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 26: 785it [28:54,  1.61s/it]
+Eval: 1110it [41:18,  2.23s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 26, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 26, step -3  MPJPE: 303.4997, PA-MPJPE: 144.0045, PVE: 398.4558,
+INFO:core.trainer:Epoch 26, step -2  MPJPE: 307.9701, PA-MPJPE: 143.7615, PVE: 409.9679,
+INFO:core.trainer:Epoch 26, step -1  MPJPE: 313.7590, PA-MPJPE: 144.0015, PVE: 419.7102,
+Learning rate 5e-05
+2022-12-18 08:27:51.415060 Epoch: 27 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 27: 785it [28:57,  2.21s/it]                              | 27/60 [35:19:15<44:45:13, 4882.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 27: 785it [28:57,  1.62s/it]
+Eval: 1110it [37:34,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 27, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 27, step -3  MPJPE: 295.1129, PA-MPJPE: 142.3838, PVE: 386.9016,
+INFO:core.trainer:Epoch 27, step -2  MPJPE: 310.0414, PA-MPJPE: 143.9562, PVE: 415.4681,
+INFO:core.trainer:Epoch 27, step -1  MPJPE: 316.4853, PA-MPJPE: 143.5908, PVE: 427.1349,
+Learning rate 5e-05
+2022-12-18 09:47:07.967874 Epoch: 28 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 28: 785it [29:34,  2.26s/it]                              | 28/60 [36:38:31<43:03:46, 4844.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 28: 785it [29:33,  1.57s/it]
+Eval: 1110it [39:04,  2.11s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 28, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 28, step -3  MPJPE: 299.1609, PA-MPJPE: 142.1982, PVE: 397.7967,
+INFO:core.trainer:Epoch 28, step -2  MPJPE: 307.9426, PA-MPJPE: 143.5679, PVE: 413.7224,
+INFO:core.trainer:Epoch 28, step -1  MPJPE: 315.2745, PA-MPJPE: 144.1001, PVE: 426.7095,
+Learning rate 5e-05
+2022-12-18 11:10:01.301420 Epoch: 29 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 29: 785it [29:41,  2.27s/it]                              | 29/60 [38:01:25<42:02:59, 4883.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 29: 785it [29:41,  1.51s/it]
+Eval: 1110it [38:26,  2.08s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 29, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 29, step -3  MPJPE: 287.0710, PA-MPJPE: 140.5946, PVE: 379.3394,
+INFO:core.trainer:Epoch 29, step -2  MPJPE: 300.4885, PA-MPJPE: 141.9267, PVE: 402.9872,
+INFO:core.trainer:Epoch 29, step -1  MPJPE: 303.5573, PA-MPJPE: 141.8265, PVE: 409.5316,
+Learning rate 5e-05
+2022-12-18 12:32:18.996398 Epoch: 30 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_30.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 30: 785it [29:24,  2.25s/it]                              | 30/60 [39:23:50<40:50:57, 4901.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 30: 785it [29:23,  1.46s/it]
+Eval: 1110it [38:32,  2.08s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 30, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 30, step -3  MPJPE: 306.0678, PA-MPJPE: 143.3717, PVE: 403.6489,
+INFO:core.trainer:Epoch 30, step -2  MPJPE: 313.1862, PA-MPJPE: 143.0720, PVE: 419.1325,
+INFO:core.trainer:Epoch 30, step -1  MPJPE: 318.8233, PA-MPJPE: 142.1676, PVE: 428.8522,
+Learning rate 5e-05
+2022-12-18 13:56:02.288179 Epoch: 31 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 31: 785it [29:46,  2.28s/it]                              | 31/60 [40:47:25<39:45:39, 4935.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 31: 785it [29:46,  1.48s/it]
+Eval: 1110it [38:38,  2.09s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 31, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 31, step -3  MPJPE: 290.6653, PA-MPJPE: 142.2524, PVE: 383.9511,
+INFO:core.trainer:Epoch 31, step -2  MPJPE: 303.5334, PA-MPJPE: 141.3807, PVE: 410.1305,
+INFO:core.trainer:Epoch 31, step -1  MPJPE: 309.4774, PA-MPJPE: 141.8119, PVE: 421.7314,
+Learning rate 5e-05
+2022-12-18 15:19:02.244406 Epoch: 32 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 32: 785it [28:41,  2.19s/it]                              | 32/60 [42:10:26<38:29:38, 4949.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 32: 785it [28:40,  1.48s/it]
+Eval: 1110it [38:39,  2.09s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 32, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 32, step -3  MPJPE: 305.0217, PA-MPJPE: 142.1177, PVE: 410.4708,
+INFO:core.trainer:Epoch 32, step -2  MPJPE: 312.0534, PA-MPJPE: 141.5615, PVE: 428.4345,
+INFO:core.trainer:Epoch 32, step -1  MPJPE: 316.2410, PA-MPJPE: 142.0028, PVE: 436.6271,
+Learning rate 5e-05
+2022-12-18 16:40:18.358255 Epoch: 33 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 33: 785it [29:26,  2.25s/it]                              | 33/60 [43:31:41<36:57:13, 4927.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 33: 785it [29:25,  1.66s/it]
+Eval: 1110it [38:21,  2.07s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 33, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 33, step -3  MPJPE: 306.5970, PA-MPJPE: 141.8644, PVE: 411.9568,
+INFO:core.trainer:Epoch 33, step -2  MPJPE: 315.4466, PA-MPJPE: 141.4478, PVE: 432.0796,
+INFO:core.trainer:Epoch 33, step -1  MPJPE: 318.8177, PA-MPJPE: 141.3743, PVE: 439.0777,
+Learning rate 5e-05
+2022-12-18 18:01:36.984311 Epoch: 34 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 34: 785it [28:38,  2.19s/it]                              | 34/60 [44:53:00<35:28:49, 4912.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 34: 785it [28:38,  1.55s/it]
+Eval: 1110it [37:56,  2.05s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 34, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 34, step -3  MPJPE: 313.0738, PA-MPJPE: 141.8238, PVE: 409.4608,
+INFO:core.trainer:Epoch 34, step -2  MPJPE: 323.7524, PA-MPJPE: 143.4038, PVE: 426.3226,
+INFO:core.trainer:Epoch 34, step -1  MPJPE: 327.8142, PA-MPJPE: 144.0310, PVE: 432.7450,
+Learning rate 5e-05
+2022-12-18 19:22:08.505583 Epoch: 35 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_35.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 35: 785it [29:16,  2.24s/it]                              | 35/60 [46:13:37<33:57:27, 4889.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 35: 785it [29:16,  1.65s/it]
+Eval: 1110it [38:15,  2.07s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 35, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 35, step -3  MPJPE: 310.9038, PA-MPJPE: 141.4775, PVE: 416.2473,
+INFO:core.trainer:Epoch 35, step -2  MPJPE: 318.9279, PA-MPJPE: 143.1780, PVE: 430.4115,
+INFO:core.trainer:Epoch 35, step -1  MPJPE: 324.7212, PA-MPJPE: 144.4691, PVE: 439.6952,
+Learning rate 5e-05
+2022-12-18 20:43:28.273932 Epoch: 36 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 36: 785it [28:42,  2.19s/it]                              | 36/60 [47:34:52<32:34:07, 4885.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 36: 785it [28:42,  1.66s/it]
+Eval: 1110it [37:27,  2.02s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 36, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 36, step -3  MPJPE: 302.4738, PA-MPJPE: 141.2191, PVE: 404.8899,
+INFO:core.trainer:Epoch 36, step -2  MPJPE: 312.9948, PA-MPJPE: 140.1671, PVE: 424.1306,
+INFO:core.trainer:Epoch 36, step -1  MPJPE: 321.4951, PA-MPJPE: 141.3221, PVE: 436.7348,
+Learning rate 5e-05
+2022-12-18 22:02:25.076535 Epoch: 37 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 37: 785it [28:45,  2.20s/it]                              | 37/60 [48:53:48<30:55:35, 4840.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 37: 785it [28:44,  1.56s/it]
+Eval: 1110it [37:44,  2.04s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 37, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 37, step -3  MPJPE: 302.5464, PA-MPJPE: 139.4363, PVE: 392.8459,
+INFO:core.trainer:Epoch 37, step -2  MPJPE: 315.6092, PA-MPJPE: 140.1093, PVE: 418.6840,
+INFO:core.trainer:Epoch 37, step -1  MPJPE: 317.1325, PA-MPJPE: 140.3165, PVE: 424.2544,
+Learning rate 5e-05
+2022-12-18 23:22:43.718724 Epoch: 38 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 38: 785it [28:28,  2.18s/it]                              | 38/60 [50:14:07<29:32:28, 4834.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 38: 785it [28:28,  1.56s/it]
+Eval: 1110it [37:35,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 38, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 38, step -3  MPJPE: 295.0636, PA-MPJPE: 139.1061, PVE: 392.9774,
+INFO:core.trainer:Epoch 38, step -2  MPJPE: 311.7175, PA-MPJPE: 141.4579, PVE: 421.1643,
+INFO:core.trainer:Epoch 38, step -1  MPJPE: 316.0726, PA-MPJPE: 141.7201, PVE: 429.0487,
+Learning rate 5e-05
+2022-12-19 00:41:57.458764 Epoch: 39 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 39: 785it [29:12,  2.23s/it]                              | 39/60 [51:33:20<28:03:29, 4809.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 39: 785it [29:12,  1.54s/it]
+Eval: 1110it [37:25,  2.02s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 39, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 39, step -3  MPJPE: 293.6682, PA-MPJPE: 139.2574, PVE: 387.6660,
+INFO:core.trainer:Epoch 39, step -2  MPJPE: 308.3742, PA-MPJPE: 141.7426, PVE: 412.8449,
+INFO:core.trainer:Epoch 39, step -1  MPJPE: 312.6873, PA-MPJPE: 142.1355, PVE: 420.4917,
+Learning rate 5e-05
+2022-12-19 02:01:49.885127 Epoch: 40 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_40.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 40: 785it [28:35,  2.19s/it]                              | 40/60 [52:53:23<26:42:37, 4807.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 40: 785it [28:34,  1.66s/it]
+Eval: 1110it [37:32,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 40, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 40, step -3  MPJPE: 313.9649, PA-MPJPE: 140.0876, PVE: 423.2918,
+INFO:core.trainer:Epoch 40, step -2  MPJPE: 322.0027, PA-MPJPE: 140.7418, PVE: 443.3081,
+INFO:core.trainer:Epoch 40, step -1  MPJPE: 325.9427, PA-MPJPE: 141.4265, PVE: 449.6290,
+Learning rate 5e-05
+2022-12-19 03:21:46.101520 Epoch: 41 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 41: 785it [29:16,  2.24s/it]                              | 41/60 [54:13:09<25:20:24, 4801.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 41: 785it [29:15,  1.48s/it]
+Eval: 1110it [37:29,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 41, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 41, step -3  MPJPE: 316.8035, PA-MPJPE: 143.2632, PVE: 418.5922,
+INFO:core.trainer:Epoch 41, step -2  MPJPE: 326.6475, PA-MPJPE: 142.9074, PVE: 440.7810,
+INFO:core.trainer:Epoch 41, step -1  MPJPE: 331.4149, PA-MPJPE: 143.0381, PVE: 444.9488,
+Learning rate 5e-05
+2022-12-19 04:42:04.347918 Epoch: 42 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 42: 785it [29:15,  2.24s/it]                              | 42/60 [55:33:28<24:01:54, 4806.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 42: 785it [29:14,  1.55s/it]
+Eval: 1110it [37:34,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 42, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 42, step -3  MPJPE: 310.1146, PA-MPJPE: 141.9445, PVE: 412.3554,
+INFO:core.trainer:Epoch 42, step -2  MPJPE: 318.1126, PA-MPJPE: 140.5577, PVE: 429.3420,
+INFO:core.trainer:Epoch 42, step -1  MPJPE: 322.8552, PA-MPJPE: 140.8292, PVE: 436.2471,
+Learning rate 5e-05
+2022-12-19 06:02:41.483325 Epoch: 43 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 43: 785it [28:56,  2.21s/it]                              | 43/60 [56:54:05<22:44:24, 4815.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 43: 785it [28:56,  1.88s/it]
+Eval: 1110it [37:37,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 43, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 43, step -3  MPJPE: 305.9309, PA-MPJPE: 140.9638, PVE: 415.3314,
+INFO:core.trainer:Epoch 43, step -2  MPJPE: 317.7188, PA-MPJPE: 141.5571, PVE: 437.3483,
+INFO:core.trainer:Epoch 43, step -1  MPJPE: 323.4438, PA-MPJPE: 143.2198, PVE: 445.3365,
+Learning rate 5e-05
+2022-12-19 07:22:40.567258 Epoch: 44 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 44: 785it [30:48,  2.35s/it]                              | 44/60 [58:14:04<21:22:49, 4810.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 44: 785it [30:47,  1.61s/it]
+Eval: 1110it [38:01,  2.06s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 44, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 44, step -3  MPJPE: 318.4047, PA-MPJPE: 142.9428, PVE: 418.9256,
+INFO:core.trainer:Epoch 44, step -2  MPJPE: 331.0778, PA-MPJPE: 145.9187, PVE: 444.2881,
+INFO:core.trainer:Epoch 44, step -1  MPJPE: 337.4614, PA-MPJPE: 146.6054, PVE: 457.2860,
+Learning rate 5e-05
+2022-12-19 08:44:30.160487 Epoch: 45 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO/checkpoints/model_epoch_45.
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 45: 785it [28:50,  2.20s/it]█▊                            | 45/60 [59:35:59<20:10:29, 4841.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 45: 785it [28:50,  1.60s/it]
+Eval: 1110it [37:21,  2.02s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 45, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 45, step -3  MPJPE: 314.2007, PA-MPJPE: 139.3680, PVE: 423.8716,
+INFO:core.trainer:Epoch 45, step -2  MPJPE: 324.7481, PA-MPJPE: 140.2925, PVE: 445.5032,
+INFO:core.trainer:Epoch 45, step -1  MPJPE: 325.9010, PA-MPJPE: 140.3711, PVE: 448.0507,
+Learning rate 5e-05
+2022-12-19 10:01:38.106706 Epoch: 46 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 46: 785it [28:18,  2.16s/it]███▋                          | 46/60 [60:53:01<18:34:25, 4776.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 46: 785it [28:18,  1.48s/it]
+Eval: 1110it [38:08,  2.06s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 46, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 46, step -3  MPJPE: 331.2219, PA-MPJPE: 144.3966, PVE: 444.0320,
+INFO:core.trainer:Epoch 46, step -2  MPJPE: 336.0993, PA-MPJPE: 145.0077, PVE: 454.2854,
+INFO:core.trainer:Epoch 46, step -1  MPJPE: 335.6211, PA-MPJPE: 144.7871, PVE: 455.9112,
+Learning rate 5e-05
+2022-12-19 11:20:38.362349 Epoch: 47 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 47: 785it [29:12,  2.23s/it]█████▌                        | 47/60 [62:12:02<17:12:30, 4765.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 47: 785it [29:11,  1.56s/it]
+Eval: 1110it [37:34,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 47, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 47, step -3  MPJPE: 308.5363, PA-MPJPE: 138.2380, PVE: 411.4622,
+INFO:core.trainer:Epoch 47, step -2  MPJPE: 322.9766, PA-MPJPE: 140.3885, PVE: 436.6530,
+INFO:core.trainer:Epoch 47, step -1  MPJPE: 326.3541, PA-MPJPE: 140.9465, PVE: 441.5156,
+Learning rate 5e-05
+2022-12-19 12:41:16.479547 Epoch: 48 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 48: 785it [29:28,  2.25s/it]███████▍                      | 48/60 [63:32:40<15:57:26, 4787.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 48: 785it [29:28,  1.49s/it]
+Eval: 1110it [37:27,  2.03s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 48, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 48, step -3  MPJPE: 313.7617, PA-MPJPE: 141.9484, PVE: 416.1066,
+INFO:core.trainer:Epoch 48, step -2  MPJPE: 326.1499, PA-MPJPE: 143.4921, PVE: 437.1893,
+INFO:core.trainer:Epoch 48, step -1  MPJPE: 326.6563, PA-MPJPE: 144.2050, PVE: 439.3219,
+Learning rate 5e-05
+2022-12-19 14:03:05.471920 Epoch: 49 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 49: 785it [29:19,  2.24s/it]█████████▎                    | 49/60 [64:54:29<14:44:21, 4823.
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 49: 785it [29:19,  1.52s/it]
+Eval: 1110it [39:13,  2.12s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 49, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 49, step -3  MPJPE: 318.1747, PA-MPJPE: 140.7939, PVE: 428.8848,
+INFO:core.trainer:Epoch 49, step -2  MPJPE: 327.0394, PA-MPJPE: 141.1263, PVE: 445.0510,
+INFO:core.trainer:Epoch 49, step -1  MPJPE: 334.1096, PA-MPJPE: 141.6577, PVE: 457.9974,
+Learning rate 5e-05
+2022-12-19 15:25:58.117615 Epoch: 50 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 50: 785it [21:51,  1.67s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 50: 785it [21:49,  1.48s/it]
+Eval: 1110it [31:38,  1.71s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 50, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 50, step -3  MPJPE: 321.8660, PA-MPJPE: 141.0424, PVE: 432.6243,
+INFO:core.trainer:Epoch 50, step -2  MPJPE: 329.9156, PA-MPJPE: 141.7864, PVE: 445.7956,
+INFO:core.trainer:Epoch 50, step -1  MPJPE: 330.2638, PA-MPJPE: 141.4747, PVE: 448.5673,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-19 21:13:24.550626 Epoch: 51 Iteration: 0
+2022-12-19 21:13:24.550626 Epoch: 51 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08                                   -26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-                                   26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 51: 785it [27:16,  2.08s/it]:01:35<9:14:23, 3695.90s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 51: 785it [27:15,  1.58s/it]
+Eval: 1110it [32:41,  1.77s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 51, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 51, step -3  MPJPE: 328.5494, PA-MPJPE: 142.6986, PVE: 435.3549,
+INFO:core.trainer:Epoch 51, step -2  MPJPE: 336.3625, PA-MPJPE: 144.0727, PVE: 446.9293,
+INFO:core.trainer:Epoch 51, step -1  MPJPE: 340.1227, PA-MPJPE: 143.6686, PVE: 452.1571,
+Learning rate 5e-05
+2022-12-19 22:22:51.059261 Epoch: 52 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 52: 785it [31:06,  2.38s/it]:10:49<8:48:38, 3964.83s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 52: 785it [31:05,  1.67s/it]
+Eval: 1110it [35:43,  1.93s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 52, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 52, step -3  MPJPE: 306.6815, PA-MPJPE: 138.5960, PVE: 410.5603,
+INFO:core.trainer:Epoch 52, step -2  MPJPE: 324.1919, PA-MPJPE: 140.2182, PVE: 436.8795,
+INFO:core.trainer:Epoch 52, step -1  MPJPE: 328.8317, PA-MPJPE: 140.9357, PVE: 442.0497,
+Learning rate 5e-05
+INFO:core.trainer:Best performance achived, saved it!
+2022-12-19 23:39:16.115426 Epoch: 53 Iteration: 0
+2022-12-19 23:39:16.115426 Epoch: 53 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08                                   -26-bXO/checkpoints/model_best.pt]
+Saved checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-                                   26-bXO/checkpoints/model_best.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 53: 785it [29:57,  2.29s/it]:27:31<8:16:32, 4256.01s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 53: 785it [29:57,  1.57s/it]
+Eval: 1110it [34:58,  1.89s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 53, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 53, step -3  MPJPE: 325.7321, PA-MPJPE: 142.7031, PVE: 433.4095,
+INFO:core.trainer:Epoch 53, step -2  MPJPE: 336.2533, PA-MPJPE: 145.6903, PVE: 455.2820,
+INFO:core.trainer:Epoch 53, step -1  MPJPE: 339.2200, PA-MPJPE: 145.3475, PVE: 463.5707,
+Learning rate 5e-05
+2022-12-20 00:57:14.024302 Epoch: 54 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 54: 785it [28:02,  2.14s/it]:45:11<7:21:33, 4415.55s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 54: 785it [28:02,  1.60s/it]
+Eval: 1110it [35:09,  1.90s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 54, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 54, step -3  MPJPE: 340.7377, PA-MPJPE: 146.5333, PVE: 451.3221,
+INFO:core.trainer:Epoch 54, step -2  MPJPE: 354.6271, PA-MPJPE: 147.7232, PVE: 473.0886,
+INFO:core.trainer:Epoch 54, step -1  MPJPE: 359.7169, PA-MPJPE: 149.0881, PVE: 483.5439,
+Learning rate 5e-05
+2022-12-20 02:11:40.484133 Epoch: 55 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08                                   -26-bXO/checkpoints/model_epoch_55.pt]
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 55: 785it [28:34,  2.18s/it]:59:45<6:09:43, 4436.73s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 55: 785it [28:34,  1.50s/it]
+Eval: 1110it [35:06,  1.90s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 55, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 55, step -3  MPJPE: 331.4923, PA-MPJPE: 145.8784, PVE: 441.8794,
+INFO:core.trainer:Epoch 55, step -2  MPJPE: 344.6028, PA-MPJPE: 148.2784, PVE: 460.6233,
+INFO:core.trainer:Epoch 55, step -1  MPJPE: 350.3765, PA-MPJPE: 149.7804, PVE: 465.3493,
+Learning rate 5e-05
+2022-12-20 03:27:18.386768 Epoch: 56 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 56: 785it [28:21,  2.17s/it]:15:15<4:57:53, 4468.43s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 56: 785it [28:20,  1.50s/it]
+Eval: 1110it [35:58,  1.94s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 56, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 56, step -3  MPJPE: 321.3833, PA-MPJPE: 141.4923, PVE: 433.2307,
+INFO:core.trainer:Epoch 56, step -2  MPJPE: 335.2326, PA-MPJPE: 144.6225, PVE: 456.4675,
+INFO:core.trainer:Epoch 56, step -1  MPJPE: 342.4252, PA-MPJPE: 145.8102, PVE: 465.6612,
+Learning rate 5e-05
+2022-12-20 04:42:20.933631 Epoch: 57 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 57: 785it [29:17,  2.24s/it]:30:18<3:43:58, 4479.64s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 57: 785it [29:17,  1.52s/it]
+Eval: 1110it [35:37,  1.93s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 57, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 57, step -3  MPJPE: 337.4400, PA-MPJPE: 149.4827, PVE: 444.8722,
+INFO:core.trainer:Epoch 57, step -2  MPJPE: 344.7904, PA-MPJPE: 147.2818, PVE: 459.9269,
+INFO:core.trainer:Epoch 57, step -1  MPJPE: 350.5660, PA-MPJPE: 147.2761, PVE: 469.3621,
+Learning rate 5e-05
+2022-12-20 05:59:22.697464 Epoch: 58 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 58: 785it [28:14,  2.16s/it]:47:20<2:30:49, 4524.94s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 58: 785it [28:13,  1.53s/it]
+Eval: 1110it [35:44,  1.93s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 58, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 58, step -3  MPJPE: 329.5282, PA-MPJPE: 145.7191, PVE: 443.2633,
+INFO:core.trainer:Epoch 58, step -2  MPJPE: 344.0801, PA-MPJPE: 147.3656, PVE: 463.2544,
+INFO:core.trainer:Epoch 58, step -1  MPJPE: 349.2990, PA-MPJPE: 148.5546, PVE: 468.1719,
+Learning rate 5e-05
+2022-12-20 07:15:58.300976 Epoch: 59 Iteration: 0
+pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08-26-bXO Epoch 59: 785it [30:43,  2.35s/it]:03:56<1:15:47, 4547.01s/it]
+INFO:core.trainer:Start Validation.Dec16-21-08-26-bXO Epoch 59: 785it [30:42,  1.65s/it]
+Eval: 1110it [36:29,  1.97s/it]
+Evaluating on 71040 number of poses ...
+INFO:core.trainer:Epoch 59, step -4  MPJPE: 268.3872, PA-MPJPE: 107.3506, PVE: 313.2290,
+INFO:core.trainer:Epoch 59, step -3  MPJPE: 324.0178, PA-MPJPE: 142.0058, PVE: 427.1497,
+INFO:core.trainer:Epoch 59, step -2  MPJPE: 334.4790, PA-MPJPE: 142.2397, PVE: 445.4421,
+INFO:core.trainer:Epoch 59, step -1  MPJPE: 338.6442, PA-MPJPE: 142.2430, PVE: 452.0104,
+Learning rate 5e-05
+2022-12-20 08:36:59.013188 Epoch: 60 Iteration: 0
+Saving checkpoint file [/home/abbas/PYMAF/PyMAF-smpl/logs/pymaf_res50/pymaf_res50_as_lp3_mlp256-128-64-5_Dec16-21-08                                   -26-bXO/checkpoints/model_epoch_60.pt]
+100%|██████████████████████████████████████████████████████████████████████████| 60/60 [12:25:07<00:00, 4470.71s/it]
+
