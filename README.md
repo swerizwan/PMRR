@@ -52,7 +52,7 @@ pip install -r requirements.txt
 bash fetch_data.sh
 ```
 > SMPL Model Files
-- Obtain the SMPL model files from [SMPL](https://smpl.is.tue.mpg.de) and [UP](https://github.com/classner/up/blob/master/models/3D/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl). Rename the model files as needed and place them in the `./data/smpl` directory.
+- Obtain the SMPL model files from [SMPL](https://smpl.is.tue.mpg.de) and [UP](https://github.com/classner/up/blob/master/models/3D/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl). Rename the model files as needed and place them in the `./files/smpl` directory.
 
 > Preprocessed Data from SPIN
 - Download the preprocessed data by following the instructions [here](https://github.com/nkolot/SPIN#fetch-data).
@@ -61,14 +61,15 @@ bash fetch_data.sh
 - Retrieve the final fits data as outlined [here](https://github.com/nkolot/SPIN#final-fits). Important Note: Using [EFT](https://github.com/facebookresearch/eft) fits for training is recommended. Compatible `.npz` files can be found [here](https://cloud.tsinghua.edu.cn/d/635c717375664cd6b3f5)
 
 > Pre-trained Model
-- Download the [pre-trained model](https://drive.google.com/file/d/1XMjZBsz-losAilG9ZEZQlZMPmrssDLBg/view?usp=sharing) and place it in the `./data/pretrained_model` directory.
+- Download the [pre-trained model](https://drive.google.com/file/d/1XMjZBsz-losAilG9ZEZQlZMPmrssDLBg/view?usp=sharing) and place it in the `./files/pretrained_model` directory.
 - After gathering these necessary files, your `./data` directory structure should look like this:
 ```
-./data
+./files
 ├── dataset_extras
 │   └── .npz files
-├── J_regressor_extra.npy
-├── J_regressor_h36m.npy
+├── J_regressor
+│   ├── J_regressor_extra.npy
+│   └── J_regressor_h36m.npy
 ├── mesh_downsampling.npz
 ├── pretrained_model
 │   └── emo-body-lang_checkpoint.pt
@@ -77,19 +78,18 @@ bash fetch_data.sh
 │   ├── SMPL_MALE.pkl
 │   └── SMPL_NEUTRAL.pkl
 ├── smpl_mean_params.npz
-├── final_fits
-│   └── .npy files
-└── UV_data
-    ├── UV_Processed.mat
-    └── UV_symmetry_transforms.mat
-```
+├── UV_data
+│   ├── UV_Processed.mat
+│   └── UV_symmetry_transforms.mat
+└── final_fits
+    └── .npy files
 
 ## Preview of Demo Results:
 
 ### For Image Input:
 
 ```
-python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
+python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
 ```
 
 <p align="center">
@@ -99,7 +99,7 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 ### For Video Input:
 
 ```
-python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
+python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
 ```
 
 <p align="center">
@@ -111,18 +111,18 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 
 ### COCO
 
-1. Download the preprocessed data [coco_2014_val.npz](https://drive.google.com/file/d/1ew77AaaOT3SAF0fZpfPrg02P5c9bzTHe/view?usp=sharing). Put it into the `./data/dataset_extras` directory. 
+1. Download the preprocessed data [coco_2014_val.npz](https://drive.google.com/file/d/1ew77AaaOT3SAF0fZpfPrg02P5c9bzTHe/view?usp=sharing). Put it into the `./files/dataset_extras` directory. 
 
 2. Run the COCO evaluation code.
 ```
-python3 coco.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt
+python3 coco.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt
 ```
 
 ### 3DPW
 
 Run the evaluation code. Using `--dataset` to specify the evaluation dataset.
 ```
-python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --dataset=3dpw --log_freq=20
+python3 main.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --dataset=3dpw --log_freq=20
 ```
 
 ## Training
