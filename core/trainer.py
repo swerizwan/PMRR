@@ -1,5 +1,3 @@
-# This script is borrowed and extended from https://github.com/nkolot/SPIN/blob/master/train/trainer.py
-
 import time
 import torch
 import numpy as np
@@ -17,7 +15,7 @@ import torch.utils.data.distributed
 
 from .base_trainer import BaseTrainer
 from datasets import MixedDataset, BaseDataset
-from models import hmr, pymaf_net, SMPL
+from models import hmr, pmrr, SMPL
 from utils.pose_utils import compute_similarity_transform_batch
 from utils.geometry import batch_rodrigues, perspective_projection, estimate_translation
 from core import path_config, constants
@@ -47,15 +45,15 @@ class Trainer(BaseTrainer):
             self.smpl = SMPL(path_config.SMPL_MODEL_DIR,
                              batch_size=cfg.TRAIN.BATCH_SIZE,
                              create_transl=False).to(self.device)
-        elif self.options.regressor == 'pymaf_net':
-            # PyMAF model
+        elif self.options.regressor == 'pmrr':
+            # PMRR model
             self.smpl_male = SMPL(model_path=path_config.SMPL_MODEL_DIR,
                                   gender='male',
                                   create_transl=False).to(self.device)
             self.smpl_female = SMPL(model_path=path_config.SMPL_MODEL_DIR,
                                     gender='female',
                                     create_transl=False).to(self.device)
-            self.model = pymaf_net(path_config.SMPL_MEAN_PARAMS, pretrained=True)
+            self.model = pmrr(path_config.SMPL_MEAN_PARAMS, pretrained=True)
             self.smpl = self.model.regressor[0].smpl
 
         if self.options.distributed:
@@ -147,7 +145,7 @@ class Trainer(BaseTrainer):
             print('No renderer for visualization.')
             self.renderer = None
         
-        if cfg.MODEL.PyMAF.AUX_SUPV_ON:
+        if cfg.MODEL.PMRR.AUX_SUPV_ON:
             self.iuv_maker = IUV_Renderer(output_size=cfg.MODEL.PyMAF.DP_HEATMAP_SIZE)
 
         self.decay_steps_ind = 1
@@ -370,12 +368,12 @@ class Trainer(BaseTrainer):
         #     valid_fit = (valid_fit.byte() | has_smpl.byte()).to(torch.bool)
 
         # Render Dense Correspondences
-        if self.options.regressor == 'pymaf_net' and cfg.MODEL.PyMAF.AUX_SUPV_ON:
+        if self.options.regressor == 'pmrr' and cfg.MODEL.PMRR.AUX_SUPV_ON:
             gt_cam_t_nr = opt_cam_t.detach().clone()
             gt_camera = torch.zeros(gt_cam_t_nr.shape).to(gt_cam_t_nr.device)
             gt_camera[:, 1:] = gt_cam_t_nr[:, :2]
             gt_camera[:, 0] = (2. * self.focal_length / self.options.img_res) / gt_cam_t_nr[:, 2]
-            iuv_image_gt = torch.zeros((batch_size, 3, cfg.MODEL.PyMAF.DP_HEATMAP_SIZE, cfg.MODEL.PyMAF.DP_HEATMAP_SIZE)).to(self.device)
+            iuv_image_gt = torch.zeros((batch_size, 3, cfg.MODEL.PMRR.DP_HEATMAP_SIZE, cfg.MODEL.PMRR.DP_HEATMAP_SIZE)).to(self.device)
             if torch.sum(valid_fit.float()) > 0:
                 iuv_image_gt[valid_fit] = self.iuv_maker.verts2iuvimg(opt_vertices[valid_fit], cam=gt_camera[valid_fit])  # [B, 3, 56, 56]
             input_batch['iuv_image_gt'] = iuv_image_gt
@@ -386,13 +384,13 @@ class Trainer(BaseTrainer):
         if self.options.regressor == 'hmr':
             pred_rotmat, pred_betas, pred_camera = self.model(images)
             # torch.Size([32, 24, 3, 3]) torch.Size([32, 10]) torch.Size([32, 3])
-        elif self.options.regressor == 'pymaf_net':
+        elif self.options.regressor == 'pmrr':
             preds_dict, _ = self.model(images)
 
         output = preds_dict
         loss_dict = {}
 
-        if self.options.regressor == 'pymaf_net' and cfg.MODEL.PyMAF.AUX_SUPV_ON:
+        if self.options.regressor == 'pmrr' and cfg.MODEL.PMRR.AUX_SUPV_ON:
             dp_out = preds_dict['dp_out']
             for i in range(len(dp_out)):
                 r_i = i - len(dp_out)
@@ -411,11 +409,11 @@ class Trainer(BaseTrainer):
                 loss_dict[f'loss_IndexUV{r_i}'] = loss_IndexUV
                 loss_dict[f'loss_segAnn{r_i}'] = loss_segAnn
 
-        len_loop = len(preds_dict['smpl_out']) if self.options.regressor == 'pymaf_net' else 1
+        len_loop = len(preds_dict['smpl_out']) if self.options.regressor == 'pmrr' else 1
 
         for l_i in range(len_loop):
 
-            if self.options.regressor == 'pymaf_net':
+            if self.options.regressor == 'pmrr':
                 if l_i == 0:
                     # initial parameters (mean poses)
                     continue
@@ -681,7 +679,7 @@ class Trainer(BaseTrainer):
         pred_verts = preds['smpl_out'][-1]['verts'].cpu().numpy() if 'verts' in preds['smpl_out'][-1] else None
         cam_pred = theta[:, :3].detach()
 
-        dp_out = preds['dp_out'][-1] if cfg.MODEL.PyMAF.AUX_SUPV_ON else None
+        dp_out = preds['dp_out'][-1] if cfg.MODEL.PMRR.AUX_SUPV_ON else None
 
         images = target['img']
         images = images * torch.tensor([0.229, 0.224, 0.225], device=images.device).reshape(1,3,1,1)
@@ -711,7 +709,7 @@ class Trainer(BaseTrainer):
                     cam=cam_t,
                 ))
 
-            if cfg.MODEL.PyMAF.AUX_SUPV_ON:
+            if cfg.MODEL.PMRR.AUX_SUPV_ON:
                 if stage == 'train':
                     iuv_image_gt = target['iuv_image_gt'][b].detach().cpu().numpy()
                     iuv_image_gt = np.transpose(iuv_image_gt, (1, 2, 0)) * 255
