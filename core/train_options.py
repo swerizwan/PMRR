@@ -14,8 +14,8 @@ class TrainOptions():
 
         train = self.parser.add_argument_group('Training Options')
         train.add_argument('--num_epochs', type=int, default=1, help='Total number of training epochs')
-        train.add_argument('--regressor', type=str, choices=['hmr', 'pmrr'], default='pymaf_net', help='Name of the SMPL regressor.')
-        train.add_argument('--cfg_file', type=str, default='./configs/emo_pose.yaml', help='config file path for PyMAF.')
+        train.add_argument('--regressor', type=str, choices=['hmr', 'pmrr'], default='pmrr', help='Name of the SMPL regressor.')
+        train.add_argument('--cfg_file', type=str, default='./configs/emo_pose.yaml', help='config file path for PMRR.')
         train.add_argument('--img_res', type=int, default=224, help='Rescale bounding boxes to size [img_res, img_res] before feeding them in the network') 
         train.add_argument('--rot_factor', type=float, default=30, help='Random rotation in the range [-rot_factor, rot_factor]') 
         train.add_argument('--noise_factor', type=float, default=0.4, help='Randomly multiply pixel values with factor in the range [1-noise_factor, 1+noise_factor]') 
