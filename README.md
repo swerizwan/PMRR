@@ -102,8 +102,8 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
 ```
 
-<p align="center">
-    <a href="https://www.youtube.com/watch?v=HzetLjjGWDI" target="_blank"></a>
+<p align="left" dir="auto">
+    <sup>Frame by frame reconstruction. Video clipped from <a href="https://www.youtube.com/watch?v=2DiQUX11YaY" rel="nofollow"><i>here</i></a>.</sup>
 </p>
 
 
