@@ -32,8 +32,8 @@ parser.add_argument('--batch_size', default=32, type=int, help='Batch size for t
 # Argument to specify the name of the SMPL regressor. Can be either 'hmr' or 'emo_body_lang'. Default is 'emo_body_lang'.
 parser.add_argument('--regressor', type=str, choices=['hmr', 'emo_body_lang'], default='emo_body_lang', help='Name of the SMPL regressor.')
 
-# Argument to provide the path to the configuration file for PyMAF. Default is 'configs/emo_pose.yaml'.
-parser.add_argument('--cfg_file', type=str, default='configs/emo_pose.yaml', help='Config file path for PyMAF.')
+# Argument to provide the path to the configuration file for PMRR. Default is 'configs/emo_pose.yaml'.
+parser.add_argument('--cfg_file', type=str, default='configs/emo_pose.yaml', help='Config file path for PMRR.')
 
 # Argument to set the frequency of printing intermediate results. Default is 50. Type is integer.
 parser.add_argument('--log_freq', default=50, type=int, help='Frequency of printing intermediate results')
