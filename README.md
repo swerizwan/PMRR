@@ -92,7 +92,7 @@ After collecting the above necessary files, the directory structure of `./data` 
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
 ```
 
-<p align="left">
+<p align="center">
     <img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/image.png" alt="PMRR Overview">
 </p>
 
