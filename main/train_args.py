@@ -24,7 +24,7 @@ class TrainOptions():
         # Name of the SMPL regressor to use
         train.add_argument('--regressor', type=str, choices=['hmr', 'emo_body_lang'], default='emo_body_lang', help='Name of the SMPL regressor.')
         # Path to the configuration file
-        train.add_argument('--cfg_file', type=str, default='./configs/emo_pose.yaml', help='Config file path for PyMAF.')
+        train.add_argument('--cfg_file', type=str, default='./configs/emo_pose.yaml', help='Config file path for PMRR.')
         # Image resolution to which bounding boxes will be rescaled
         train.add_argument('--img_res', type=int, default=224, help='Rescale bounding boxes to size [img_res, img_res] before feeding them into the network')
         # Range for random rotation augmentation
