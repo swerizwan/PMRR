@@ -146,7 +146,7 @@ class Trainer(BaseTrainer):
             self.renderer = None
         
         if cfg.MODEL.PMRR.AUX_SUPV_ON:
-            self.iuv_maker = IUV_Renderer(output_size=cfg.MODEL.PyMAF.DP_HEATMAP_SIZE)
+            self.iuv_maker = IUV_Renderer(output_size=cfg.MODEL.PMRR.DP_HEATMAP_SIZE)
 
         self.decay_steps_ind = 1
         self.decay_epochs_ind = 1
@@ -616,7 +616,7 @@ class Trainer(BaseTrainer):
 
     def evaluate(self):
         if cfg.TRAIN.VAL_LOOP:
-            step = cfg.MODEL.PyMAF.N_ITER + 1
+            step = cfg.MODEL.PMRR.N_ITER + 1
         else:
             step = 1
         
