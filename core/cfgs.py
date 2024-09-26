@@ -47,7 +47,7 @@ cfg.LOSS.POINT_REGRESSION_WEIGHTS = 0.5
 
 cfg.MODEL = CN(new_allowed=True)
 
-cfg.MODEL.PyMAF = CN(new_allowed=True)
+cfg.MODEL.PMRR = CN(new_allowed=True)
 
 ## switch
 cfg.TRAIN.VAL_LOOP = True
