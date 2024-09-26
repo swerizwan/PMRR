@@ -8,15 +8,15 @@ Things you need to change: *_ROOT that indicate the path to each dataset
 from os.path import join, expanduser
 
 # H36M_ROOT = join('/opt/data/private/datasets', 'Datasets/h36m')
-H36M_ROOT = join('/home/abbas/PYMAF/PyMAF-smpl/datasets/preprocess', 'Datasets/h36m')
+H36M_ROOT = join('/home/abbas/PMRR/datasets/preprocess', 'Datasets/h36m')
 LSP_ROOT = join('/opt/data/private/datasets', 'Datasets/human/LSP/lsp_dataset_small')
 LSP_ORIGINAL_ROOT = join('/opt/data/private/datasets', 'Datasets/LSP/lsp_dataset_original')
 LSPET_ROOT = join('/opt/data/private/datasets', 'Datasets/LSP/hr-lspet')
 MPII_ROOT = join('/opt/data/private/datasets', 'Datasets/mpii')
-COCO_ROOT = join('/home/abbas/PYMAF/PyMAF-smpl/datasets/preprocess', 'coco')
+COCO_ROOT = join('/home/abbas/PMRR/datasets/preprocess', 'coco')
 MPI_INF_3DHP_ROOT = join('/opt/data/private/datasets',
                          'Datasets/mpi_inf_3dhp_train_set')
-PW3D_ROOT = join('/home/abbas/PYMAF/PyMAF-smpl/datasets/preprocess', '3dpw')
+PW3D_ROOT = join('/home/abbas/PMRR/datasets/preprocess', '3dpw')
 UPI_S1H_ROOT = join('/opt/data/private/datasets', 'Datasets/human/upi-s1h')
 SURREAL_ROOT = join('/opt/data/private/datasets', 'Datasets/human/SURREAL/data')
 threeDOH50K_ROOT = join('/opt/data/private/datasets', 'Datasets/human/3DOH50K')
