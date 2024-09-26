@@ -84,7 +84,7 @@ def run_image_demo(args):
         # Initialize HMR-SPIN model
         model = hmr(path_config.SMPL_MEAN_PARAMS).to(device)
     elif args.regressor == 'emo_body_lang':
-        # Initialize PyMAF-NET model
+        # Initialize PMRR model
         model = emo_body_lang(path_config.SMPL_MEAN_PARAMS, pretrained=True).to(device)
 
     # Load pretrained weights
@@ -113,7 +113,7 @@ def run_image_demo(args):
             pred_output = smpl(betas=pred_betas, body_pose=pred_rotmat[:,1:], global_orient=pred_rotmat[:,0].unsqueeze(1), pose2rot=False)
             pred_vertices = pred_output.vertices
         elif args.regressor == 'emo_body_lang':
-            # Run PyMAF-NET model to predict body parameters
+            # Run PMRR model to predict body parameters
             preds_dict, _ = model(norm_img.to(device))
             output = preds_dict['smpl_out'][-1]
             pred_camera = output['theta'][:, :3]
@@ -159,8 +159,8 @@ def run_image_demo(args):
     save_name = os.path.join(output_path, img_name)
     
     # Save front-view and side-view images
-    cv2.imwrite(save_name + '_smpl.png', img_shape)
-    cv2.imwrite(save_name + '_smpl_side.png', img_shape_side)
+    cv2.imwrite(save_name + '_pmrr.png', img_shape)
+    cv2.imwrite(save_name + '_pmrr_side.png', img_shape_side)
     
     print(f'Saved the result image to {output_path}.')
 
@@ -612,7 +612,7 @@ if __name__ == '__main__':
                         help='Input image size for YOLO detector')
     parser.add_argument('--tracker_batch_size', type=int, default=12,
                         help='Batch size of object detector used for bbox tracking')
-    parser.add_argument('--staf_dir', type=str, default='/home/abbas/PYMAF/PyMAF-smpl/STAF/',
+    parser.add_argument('--staf_dir', type=str, default='/home/abbas/PMRR/STAF/',
                         help='Path to directory of STAF pose tracking method')
     parser.add_argument('--regressor', type=str, default='emo_body_lang', 
                         help='Name of the SMPL regressor')
