@@ -111,7 +111,7 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 
 ### COCO
 
-1. Download the preprocessed data [coco_2014_val.npz](https://drive.google.com/drive/folders/1R4_Vi4TpCQ26-6_b2PhjTBg-nBxZKjz6?usp=sharing). Put it into the `./data/dataset_extras` directory. 
+1. Download the preprocessed data [coco_2014_val.npz](https://drive.google.com/file/d/1ew77AaaOT3SAF0fZpfPrg02P5c9bzTHe/view?usp=sharing). Put it into the `./data/dataset_extras` directory. 
 
 2. Run the COCO evaluation code.
 ```
