@@ -90,7 +90,7 @@ bash fetch_data.sh
 ### For Image Input:
 
 ```
-python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
+python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/image.png
 ```
 
 <p align="center">
@@ -100,7 +100,7 @@ python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint
 ### For Video Input:
 
 ```
-python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
+python3 run_demo.py --checkpoint=files/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/video.mp4
 ```
 
 <p align="center">
