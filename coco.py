@@ -262,41 +262,6 @@ def print_name_value(name_value, full_arch_name):
     for name, value in zip(names, values):
         print(f"- {name}: {value:.3f}")
 
-"""
-def _print_name_value(name_value, full_arch_name):
-    Print a dictionary of names and values in markdown table format.
-
-    Args:
-        name_value (dict): A dictionary where keys are column names and values are the corresponding values.
-        full_arch_name (str): The name of the architecture to be displayed in the first column.
-
-    
-    names = name_value.keys()  # Extract keys from the dictionary as column names
-    values = name_value.values()  # Extract values from the dictionary as table values
-    num_values = len(name_value)  # Get the number of columns
-
-    # Print the table header
-    print(
-        '| Arch ' +  # First column header
-        ' '.join(['| {}'.format(name) for name in names]) +  # Remaining column headers
-        ' |'
-    )
-    # Print the markdown table separator
-    print('|---' * (num_values + 1) + '|')
-
-    # Shorten the architecture name if it is too long
-    if len(full_arch_name) > 15:
-        full_arch_name = full_arch_name[:8] + '...'
-    
-    # Print the table row with the architecture name and values
-    print(
-        '| ' + full_arch_name + ' ' +  # First column with architecture name
-        ' '.join(['| {:.3f}'.format(value) for value in values]) +  # Remaining columns with formatted values
-        ' |'
-    )
-
-"""
-
 if __name__ == '__main__':
     # Parse command line arguments
     args = parser.parse_args()
